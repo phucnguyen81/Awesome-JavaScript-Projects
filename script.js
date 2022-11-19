@@ -3525,6 +3525,11 @@ let projectData = [
 		projectImage: 'assets/images/15puzzle/15puzzle.png',
 		projectUrl: 'public/15puzzle.html',
 	},
+	{
+		projectName: 'Hello World',
+		projectImage: 'assets/images/hello_world.jpg',
+		projectUrl: 'public/hello_world.html',
+	},
 ];
 
 var projectDetails = projectData.slice(0);
