@@ -28,7 +28,9 @@ function checkEmail(input) {
   }
 }
 
-// Check required fields
+// Check required fields.
+// Return `true` if some required field is empty.
+// Return `false` if all required fields are not empty.
 function checkRequired(inputArr) {
   let isRequired = false;
   inputArr.forEach(function(input) {
@@ -72,7 +74,10 @@ function getFieldName(input) {
   return input.id.charAt(0).toUpperCase() + input.id.slice(1);
 }
 
-// Event listeners
+// Event listeners.
+// Add an event listener to the form to listen to `submit` events.
+// On catching a `submit` event (e.g. when the user clicks on
+// the "Submit" button), validate the form fields.
 form.addEventListener('submit', function(e) {
   e.preventDefault();
 

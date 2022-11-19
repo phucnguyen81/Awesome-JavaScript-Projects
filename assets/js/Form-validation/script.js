@@ -4,12 +4,14 @@ const email = document.getElementById('email');
 const password = document.getElementById('password');
 const password2 = document.getElementById('password2');
 
+// Validate inputs on each form submit
 form.addEventListener('submit', e => {
     e.preventDefault();
 
     checkInputs();
 });
 
+// Validate form fields
 function checkInputs() {
     // trim to remove the whitespaces
     const usernameValue = username.value.trim();

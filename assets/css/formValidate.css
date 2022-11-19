@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
+/* Set css variables (custom properties) at root element.
+In HTML, it's the html element */
 :root {
   --success-color: #2ecc71;
   --error-color: #e74c3c;
@@ -11,7 +13,7 @@
 
 body {
   background-color: #f9fafb;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
